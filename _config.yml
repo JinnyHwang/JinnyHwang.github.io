@@ -1,1 +1,9 @@
 theme: jekyll-theme-cayman
+
+# Site Settings
+locale                   : "en-US"
+title                    : "Test Page"
+title_separator          : "-"
+name                     : "Jieun"
+description              : "I will make a complete blog"
+url                      : "https://jinnyhwang.github.io"
