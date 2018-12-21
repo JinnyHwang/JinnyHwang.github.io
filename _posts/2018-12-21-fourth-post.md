@@ -85,6 +85,6 @@ HTTP GET 메서드를 받고, home 이름을 return해서 home.jsp 뷰를 사용
 
 음... home메서드도 return 값 없이 value로 경로 다 주고
 메서드 안에서 HTTP GET 받으면 될 것 같은데... 해보자!
-
+------>안돼! get 메서드는 @RequestMapping 에서 받기
 
 ---
