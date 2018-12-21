@@ -1,7 +1,7 @@
 ---
-title: "2018.12.20 memo"
+title: "2018.12.21 memo"
 date: 2018-12-21 13:57:00 -0400
-categories: Test blog
+categories: blog memo
 ---
 
 스프링 프레임 워크 활용해서 웹 구축하기
