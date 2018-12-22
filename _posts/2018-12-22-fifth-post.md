@@ -68,6 +68,36 @@ Servlet.init() for servlet appServlet threw exception
 
 
 
+----> 음.. 의문점
+
+서버를 실행했을 때 왜
+
+
+@RequestMapping(value = "/", method = RequestMethod.GET)
+	public String home(Locale locale, Model model) {
+		logger.info("SampleController.java home()");
+
+		//ko_KR라는 이름이 담긴다. -> 특정 나라의 시간을 담기 위해 사용됨
+		logger.info("Welcome home! The client locale is {}.", locale);
+		num++;
+		logger.info("몇 전 접근하는가? {} ", num);
+
+		Date date = new Date();
+		
+		DateFormat dateFormat = DateFormat.getDateTimeInstance(DateFormat.LONG, DateFormat.LONG, locale);
+
+		String formattedDate = dateFormat.format(date);
+
+		//jsp에 값을 전달하기 위해 model사용 어트리뷰트 명을 정하고 값을 담아 보내면 jsp에선 attribute명으로 값 사용 가능!
+		model.addAttribute("serverTime", formattedDate );
+
+		//브라우저에 보여줄 뷰의 이름을 전달 즉 home.jsp뷰를 뜻하는 것
+		return "home";
+	}
+
+
+에 두 번 접근하는가?
+왜... 왜지ㅠㅠㅠㅠ
 
 
 ---
