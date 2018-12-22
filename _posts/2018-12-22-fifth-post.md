@@ -98,6 +98,33 @@ Servlet.init() for servlet appServlet threw exception
 
 에 두 번 접근하는가?
 왜... 왜지ㅠㅠㅠㅠ
+맨 처음 서버 접속할 때만 두 번 접근되는걸로봐서 코드 문제는 아닌듯
 
+
+@RequestMapping(value = "/", method = RequestMethod.GET)
+이거 쓸 때 value = "/"요거 빼먹으면
+경로 이상하게 막 적어도 무조건 다 된다고 뜸
+음 매핑이 요상하게 되는듯..?
+value는 	URL 값으로 매핑 조건을 부여 (default) 역항을 한다고 한다
+
+
+출처: https://sarc.io/index.php/development/1139-requestmapping
+
+3. @RequestMapping 이 사용하는 속성
+ 
+이름		타입		설명
+value		String[]	URL 값으로 매핑 조건을 부여 (default)
+method		RequetMethod[]	HTTP Request 메소드 값을 매핑 조건으로 부여 GET, POST, HEAD, OPTIONS, PUT, DELETE, TRACE (7개)
+params		String[]	HTTP Request 파라미터를 매핑 조건으로 부여
+consumes	String[]	설정과 Content-Type request 헤더가 일치할 경우에만 URL이 호출됨
+produces	String[]	설정과 Accept request 헤더가 일치할 경우에만 URL이 호출됨
+
+이것도 참고하자
+https://www.journaldev.com/3358/spring-requestmapping-requestparam-pathvariable-example
+
+이것도!
+https://stackoverflow.com/questions/13213061/springmvc-requestmapping-for-get-parameters
+
+params 다루는 것도 
 
 ---
