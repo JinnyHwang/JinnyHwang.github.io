@@ -14,4 +14,60 @@ MVC 패턴을 이해하고 어떻게 스는지 대충 감이 왔다
 갈 길이 멀지만... 파이팅이야
 :ghost: :ghost: :ghost: :ghost:
 
+아직 감 못잡음
+
+@RequestMapping(value = "/", method = RequestMethod.GET)
+	public String home() {
+		logger.info("SampleController.java home()");
+		return "home";
+	}
+	
+	@RequestMapping(value = "/ex01/doA")
+	public void doA(){
+		logger.info("SampleController.java doA()");
+	}
+
+	//doB.jsp 파일 맵핑
+	@RequestMapping(value = "/ex01/doB")
+	public void doB(){
+		logger.info("SampleController.java doB()");
+	}
+  
+이런 형식으로 하나의 컨트롤러에 여러 경로 설정합  
+
+그런데
+
+
+	@RequestMapping(value = "/", method = RequestMethod.GET)
+	public String home() {
+		logger.info("SampleController.java home()");
+		return "home";
+	}
+	
+	@RequestMapping(value = "/ex01/")
+	public String doA(){
+		logger.info("SampleController.java doA()");
+		return "doA";
+	}
+
+	//doB.jsp 파일 맵핑
+	@RequestMapping(value = "/ex01/")
+	public String doB(){
+		logger.info("SampleController.java doB()");
+		return "doB";
+	}
+
+
+이렇게 다 return type을 정했더니 500error
+500에러는 뭘까?
+
+Servlet.init() for servlet appServlet threw exception
+
+으음 검색해보니까 의존성 문제라는 것 같다
+어떻게해야 파일 구성을 예쁘고 효율적으로 할 수 있을지 생각해봐야겠다
+
+
+
+
+
 ---
