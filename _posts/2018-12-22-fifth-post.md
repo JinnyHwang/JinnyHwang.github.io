@@ -12,11 +12,10 @@ categories: blog memo
 
 MVC 패턴을 이해하고 어떻게 스는지 대충 감이 왔다
 갈 길이 멀지만... 파이팅이야
-:ghost: :ghost: :ghost: :ghost:
 
 아직 감 못잡음
 
-@RequestMapping(value = "/", method = RequestMethod.GET)
+	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public String home() {
 		logger.info("SampleController.java home()");
 		return "home";
@@ -126,5 +125,175 @@ https://www.journaldev.com/3358/spring-requestmapping-requestparam-pathvariable-
 https://stackoverflow.com/questions/13213061/springmvc-requestmapping-for-get-parameters
 
 params 다루는 것도 
+
+------> 으악!
+
+나는 
+
+	@RequestMapping(value = "/", method = RequestMethod.GET)
+	public String home() {
+		logger.info("SampleController.java home()");
+		return "home";
+	}
+	
+	@RequestMapping(value = "/ex01/doA")
+	public void doA(){
+		logger.info("SampleController.java doA()");
+	}
+
+	//doB.jsp 파일 맵핑
+	@RequestMapping(value = "/ex01/doB")
+	public void doB(){
+		logger.info("SampleController.java doB()");
+	}
+
+이렇게 했을 때 home()가
+@RequestMapping(value = "/", method = RequestMethod.GET)를 받기 때문에
+home메서드가 가장 먼저 실행되는구나 라고 생각했었는데
+아니었따
+
+아아아 어떤 식으로 서블릿을 받고 실행되는거야아아아ㅏㅏㅏㅏㅏㅏ
+
+굳이 method = RequestMethod.GET를 쓰지 않아도 실행된ㄴ다... 무슨일이야!
+
+일단 web.xml엔
+
+	<servlet-mapping>
+		<servlet-name>appServlet</servlet-name>
+		<url-pattern>/</url-pattern>
+	</servlet-mapping>
+
+이렇게 적혀있다
+
+그리고 
+@RequestMapping(value = "/")로 매핑된 것을 첫번째로 실행시킴
+
+서블릿 매핑 url 패턴 공부
+
+https://lng1982.tistory.com/97
+
+"/"로 시작하고 "/*"로 끝나는 패턴은 path로 인식
+"*."으로 시작하는 경우 확장자 매칭
+"/"만 정의한 경우 디폴트 서블릿 의미
+그 외의 경우 동치 매칭
+
+
+
+으으으으으음
+
+servlet-context.xml을 이렇게 설정해서
+
+	<beans:bean
+		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+		<!-- 뷰의 접두어, 접미어 설정: 파일명만 작성할 수 있도록 세팅 -->
+		<!-- 접두어: 디렉터리 -->
+		<beans:property name="prefix" value="/WEB-INF/views/ex01/" />
+		<!-- 접미어: 확장자 -->
+		<beans:property name="suffix" value=".jsp" />
+	</beans:bean>
+
+/WEB-INF/views/ex01/위치에 있는 파일을 불러오고
+
+나는 void 타입 메서드를 사용해서 doA를 가장 먼저 불러오고 싶다
+
+	//주소창에 msg 파라미터 값을 가져와 변수에 저장?
+	@RequestMapping(value = "/doA")
+	public void doA(@ModelAttribute("msg") String msg){
+		logger.info("SampleController.java doA()");
+		//num2++;
+		//logger.info("몇 번 접근하는가? {}, {}", num, num2);
+		logger.info("어떤 값이 출력될까? {} ",msg);
+		//return "test";
+	}
+
+이렇게 메서드를 설정하면 doA.jsp 매핑은 됨
+하지만 첫 화면에 뜨진 않는다
+String으로 return된 값을 jsp로 생각하나봐!
+
+
+
+	//주소창에 msg 파라미터 값을 가져와 변수에 저장?
+	@RequestMapping(value = "/doA")
+	public String doA(@ModelAttribute("msg") String msg){
+		logger.info("SampleController.java doA()");
+		//num2++;
+		//logger.info("몇 번 접근하는가? {}, {}", num, num2);
+		logger.info("어떤 값이 출력될까? {} ",msg);
+		return "test";
+	}
+
+	
+이렇게 쓰면 
+주소에 http://localhost:8080/doA
+파일은 test.jsp가 뜬다
+
+
+내가 이해한 것
+
+	@RequestMapping(value = "/doA")
+	public void doA(@ModelAttribute("msg") String msg){
+		logger.info("SampleController.java doA()");
+	}
+
+이렇게 쓰면 주소에 doA라고 뜨고 doA.jsp를 가져온다
+
+@RequestMapping는 경로를 지정해주고
+return에서 jsp 명을 받는 것
+
+return type이 void일 경우엔 @RequestMapping의 value 값으로 인식하게 되어있는 듯
+
+---> 앞으론 @RequestMapping엔 경로만 설정해주고
+retrun을 꼭꼭 해서 jsp는 받아오도록 하자
+
+근데 또 의문 생김
+아 
+
+	<!-- servlet-context.xml 경로 -->
+	<beans:property name="prefix" value="/WEB-INF/views/" />
+
+
+	//controller.java
+	@RequestMapping(value = "/ex01")
+	public String doA(@ModelAttribute("msg") String msg){
+		logger.info("SampleController.java doA()");
+		return "test";
+	}
+
+이건 안됨!
+
+입력 주소:	http://localhost:8080/ex01
+인식 경로:	/WEB-INF/views/test.jsp
+
+servlet-context.xml에 써있는 기본 경로로 생각!
+
+
+
+
+오늘 공부 결론 이거다!!!!!
+
+:star2: :star2: :star2: :star2: :star2: :star2: :star2:
+
+1) servlet-context.xml 에 기본 경로 잘 지정하고
+2) @RequestMapping()으로 경로 설정
+3) return으로 정확한 jsp명 입력
++) jsp이름이 주소에 노출되기 싫은 경우 @RequestMapping()로 숨길 수 있다
+단, servlet-context.xml 기본 경로에 있는 파일만!
+
+----->
+	//controller.java
+	@RequestMapping(value = "/ex01/doA")
+	public String doA(@ModelAttribute("msg") String msg){
+		logger.info("SampleController.java doA()");
+		return "test";
+	}
+
+이렇게 하면
+
+입력 주소:	http://localhost:8080/ex01/doA
+인식 경로:	/WEB-INF/views/test.jsp
+이렇게!
+---->
+
+:star2: :star2: :star2: :star2: :star2: :star2: :star2:
 
 ---
