@@ -294,6 +294,17 @@ servlet-context.xml에 써있는 기본 경로로 생각!
 이렇게!
 ---->
 
+++) 위에서 헷갈렸던 것 다시1
+여러개 메서드를 return하면 스프링은 어떤 jsp를 보여줄지 알 수 없다
+그래서 HTTP Status 500 – Internal Server Error 가 뜨는 것
+만약 여러개 뷰를 한 컨트롤러에 정의하고 싶으면
+맨 처음에 보여주고 싶은 jsp만 return type을 주고
+url로 접속하고 싶은 다른 뷰는
+void type을 쓰고 @RequestMapping() value에
+경로, 파일명 모두 포함해서 쓰자
+그러면 url로 경로 입력해서 접근할 수 있음
+
+
 :star2: :star2: :star2: :star2: :star2: :star2: :star2:
 
 ---
