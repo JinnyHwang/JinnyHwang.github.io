@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "블로그를 시작하게된 이유"
+title:  "FirstPost"
 date:   2024-01-03 22:27:00 +0900
 author: Jieun
 categories: Daily
