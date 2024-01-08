@@ -9,12 +9,12 @@ exclude:
   - "/vendor/"
 
 # Site settings
-title: Record Blog - Jinny
+title: Record Blog
 subtitle: "Development Study and Diary Blog"
 email: jinnyhwang24@gmail.com
 name: Jieun Hwang
 description: >
-  A simple yet classy theme for your Jekyll website or blog.
+  개발 공부 기록을 위해 만든 블로그🔥
 # Base URL of site (i.e. /blog). It should always start with a slash,
 # and never end with a slash. Set it to a blank value if hosting at the
 # root of your server.
