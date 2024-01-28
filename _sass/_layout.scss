@@ -353,6 +353,9 @@ pre code.hljs {
 				padding: modular-scale(-4);
 				padding-left: 0;
 			}
+			p {
+				font-size: 0.9em;
+			}
 			.desc {
 				font-size: 0.9em;
 			}
@@ -365,9 +368,6 @@ pre code.hljs {
 			margin: auto;
 			padding-bottom: 0.5em;
  		}
-		.desc {
-			font-size: 0.9em;
-		}
 	}
 }
 
