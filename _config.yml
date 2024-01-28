@@ -61,10 +61,10 @@ descriptions:
     desc: "Just some placeholder posts, lorem ipsum and the rest."
 
   - cat: Daily
-    desc: "Daily Posts"
+    desc: "Daily Posts."
 
   - cat: Study
-    desc: "Study Posts"
+    desc: "Study Posts."
 
 # Social icons and sharing options
 #
@@ -91,7 +91,7 @@ social:
 
   - name: LinkedIn
     icon: linkedin
-    username: Ben Centra
+    username: JinnyHwang
     url: ""
     desc: Connect with me on LinkedIn
     share: false
@@ -101,7 +101,7 @@ social:
     username: UUng OOng
     url: https://www.youtube.com/@uungoong
     desc: Subscribe on YouTube
-    share: false
+    share: true
 
   - name: Instagram
     icon: instagram
