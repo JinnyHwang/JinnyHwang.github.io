@@ -9,6 +9,9 @@ cover:  "/assets/instacode.png"
 
 ### DashBoard Project Info
 <img src="/assets/2017_DashBoard/DashBoard_Info.png" title="DashBoard Info">
-<br/>
-<br/>
-<br/>
+<br/><br/><br/>
+### Project Structure
+<img src="/assets/2017_DashBoard/DashBoard_Info2.png" title="DashBoard Info2">
+<br/><br/><br/>
+### Web UI
+<img src="/assets/2017_DashBoard/DashBoard_Screenshot.jpg" title="DashBoard Screenshot">
