@@ -36,6 +36,3 @@ cover:  "/assets/instacode.png"
 <br/>
 <br/>
 <br/>
-### GitHub Link
-[2017.08 미세먼지정보기]:  https://github.com/JinnyHwang/2023_Study_backup/tree/main/2017.08%20%EB%AF%B8%EC%84%B8%EB%A8%BC%EC%A7%80%EC%A0%95%EB%B3%B4%EA%B8%B0
-
