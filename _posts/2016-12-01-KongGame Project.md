@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "2016.12.01 Kong Game Project"
-date:   2017-12-01 16:57:00 +09:00
+date:   2016-12-01 16:57:00 +09:00
 author: Jieun
 categories: Project
 cover:  "/assets/instacode.png"
