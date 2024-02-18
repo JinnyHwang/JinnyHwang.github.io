@@ -3,11 +3,11 @@ layout: post
 title:  "2017.11.03 EYEs Project"
 date:   2017-11-03 16:57:00 +09:00
 author: Jieun
-categories: Daily
+categories: Project
 cover:  "/assets/instacode.png"
 ---
 
-### EYE Project Information
+### EYE Project Info
 <img src="/assets/2017_EYEs_Project/EYEs_IoT_Info.png" title="EYE Project Info">
 
 &nbsp; &nbsp; &nbsp;
