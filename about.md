@@ -7,6 +7,9 @@ main_nav: true
 
 ![alt text]({{ site.baseurl }}/assets/profile-placeholder.png "Profile Picture"){:.profile}
 
+작성 중...🛠🛠🛠
+
+<!--
 설비 SW 엔지니어로 일한지 어느덧 6년차..
 개발 공부와 일상 기록을 위해 블로그 시작!
 
@@ -17,6 +20,7 @@ main_nav: true
 
 성의 없는 About은 블로그 운영하다 보면서 개선할 예정
 😎😎😎😎😎😎
+-->
 
 <!--
 Centrarium is a custom theme for Jekyll, made by [Ben Centra][bencentra] for his own blog. He'd be humbled if you liked it enough to use it as well! Installation and configuration instructions can be found in the [GitHub repository](https://github.com/bencentra/centrarium).
