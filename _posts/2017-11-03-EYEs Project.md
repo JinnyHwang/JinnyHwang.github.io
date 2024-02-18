@@ -37,4 +37,4 @@ cover:  "/assets/instacode.png"
 <br/>
 <br/>
 ### GitHub Link
-[2017_눈을위한IoT EYE](https://github.com/JinnyHwang/2023_Study_backup/tree/main/2017_%EB%88%88%EC%9D%84%EC%9C%84%ED%95%9CIoT%20EYE_%EC%BA%A1%EC%8A%A4%ED%86%A4%EB%94%94%EC%9E%90%EC%9D%B8%20%EC%9D%80%EC%83%81)
+[2017_눈을위한IoT EYE]:  https://github.com/JinnyHwang/2023_Study_backup/tree/main/2017_%EB%88%88%EC%9D%84%EC%9C%84%ED%95%9CIoT%20EYE_%EC%BA%A1%EC%8A%A4%ED%86%A4%EB%94%94%EC%9E%90%EC%9D%B8%20%EC%9D%80%EC%83%81
