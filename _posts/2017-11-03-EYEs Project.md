@@ -13,15 +13,7 @@ cover:  "/assets/instacode.png"
 { % youtube "https://www.youtube.com/watch?v=iuisHTjsfdU" % }
 -->
 
-
-<iframe
-  class="embed-video youtube lazyload"
-  src="https://www.youtube.com/watch?v=iuisHTjsfdU"
-  title="YouTube video player"
-  frameborder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-  allowfullscreen
-></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/iuisHTjsfdU?si=D1z_U9V6RqebTzFE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
 
