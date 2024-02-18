@@ -4,7 +4,8 @@ plugins:
   - jekyll-archives # Sorry, not GitHub pages friendly!
   - jekyll-sitemap
   - jekyll-paginate-v2
-
+  - jekyll-youtube
+  
 exclude:
   - "/vendor/"
 
@@ -29,6 +30,7 @@ inter_post_navigation: false
 highlightjs_theme: "monokai-sublime"
 
 # Pagination Settings
+# jekyll-paginate-v2로 Github Blog : https://burningfalls.github.io/blog/pagination-v2-try/
 # https://github.com/sverrirs/jekyll-paginate-v2/blob/master/README-GENERATOR.md#site-configuration
 pagination:
   enabled: true

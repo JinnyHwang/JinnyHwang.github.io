@@ -5,3 +5,4 @@ gem 'jekyll-sitemap'
 gem 'jekyll-paginate-v2'
 gem 'kramdown-parser-gfm'
 gem "webrick", "~> 1.8"
+gem 'jekyll-youtube', '~> 1.0'
