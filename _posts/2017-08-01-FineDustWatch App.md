@@ -11,11 +11,9 @@ cover:  "/assets/instacode.png"
 미세먼지 정보를 알고 싶은 지역을 검색하면 해당 지역에서 가장 가까운 미세먼지 측정소를 알려줍니다.<br/>
 해당 측정소에서 제공하는 미세먼지 정보를 표로 정리하여 보여주는 앱입니다.<br/>
 📝Development Language<br/>
-> PHP, HTML, JavaScript<br/>
->
+> PHP, HTML, JavaScript
 💻Development Environment<br/>
-> phpMyAdmin, Android Studio<br/>
->
+> phpMyAdmin, Android Studio
 <img src="/assets/2017_FineDustWatch/FineDustApp_Info.png" title="FineDustWatch App Info">
 <br/><br/><br/>
 ### Project Structure

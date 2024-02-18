@@ -12,11 +12,9 @@ cover:  "/assets/instacode.png"
 4가지 선택지와 5가지 엔딩이 있습니다.<br/>
 5일 동안 어떤 선택지를 선택하는가에 따라 다른 엔딩을 볼 수 있습니다.<br/>
 📝Development Language<br/>
-> C#<br/>
->
+> C#
 💻Development Environment<br/>
-> Visual Studio Windows Forms<br/>
->
+> Visual Studio Windows Forms
 <img src="/assets/2016_KongGame/KongGame_Info.png" title="KongGame Info">
 <br/><br/><br/>
 ### 콩키우기게임 Project Screenshot

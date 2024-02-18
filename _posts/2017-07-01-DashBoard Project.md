@@ -12,11 +12,9 @@ cover:  "/assets/instacode.png"
 게시글 리스트에선 글 제목, 작성자, 작성날짜를 알 수 있고, 최근 글이 맨 앞에 위치해있습니다.<br/>
 검색 기능이 있어서 작성자, 제목, 내용을 기준으로 게시글을 검색할 수 있습니다.<br/>
 📝Development Language<br/>
-> PHP, HTML, JavaScript<br/>
->
+> PHP, HTML, JavaScript
 💻Development Environment<br/>
-> phpMyAdmin<br/>
->
+> phpMyAdmin
 <img src="/assets/2017_DashBoard/DashBoard_Info.png" title="DashBoard Info">
 <br/><br/><br/>
 ### Project Structure
