@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "2017.08.01 FineDustWatch App"
+title:  "2017.08.01 FineDustWatch Web App"
 date:   2017-08-01 17:32:00 +09:00
 author: Jieun
 categories: Project
@@ -9,7 +9,7 @@ cover:  "/assets/instacode.png"
 
 <hr>
 
-### FineDustWatch App Info
+### FineDustWatch Web App Info
 미세먼지 정보를 알고 싶은 지역을 검색하면 해당 지역에서 가장 가까운 미세먼지 측정소를 알려줍니다.<br/>
 해당 측정소에서 제공하는 미세먼지 정보를 표로 정리하여 보여주는 앱입니다.<br/>
 <br/>

@@ -9,7 +9,7 @@ cover:  "/assets/instacode.png"
 
 <hr>
 
-### EYE Project Info
+### EYEs Project Info
 EYEs는 눈 건강을 위한 IoT 헬스케어 프로젝트입니다.<br/>
 실내 조도와 습도를 감지하고 조명과 가습기를 조절해 사용자가 원하는 환경을 유지하도록 도움을 줍니다.<br/>
 사용자는 웹에서 원하는 조습도 값을 편하게 조절할 수 있습니다.<br/>
