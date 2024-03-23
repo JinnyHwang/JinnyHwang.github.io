@@ -12,50 +12,56 @@ main_nav: true
 <h3>Contacts</h3>
 010-3552-9285 · jinnyhwang24@gmail.com <br/>
 <!-- <h2>보유 역량 요약</h2> -->
-
-<br/><br/>
+<br/><br/><br/>
 
 
 <h1>Careers</h1>
 <hr>
 <h3>WonikIPS / Software Engineer @ SW팀 (2019.01 ~ 현재)</h3>
 <h4>반도체 Deposition 설비 운용 SW Project 개발</h4>
-<h5>Deposition CVD 설비 개발/양산</h5>
 
-<h5>Module 통신 Driver 개발</h5>
-&ensp;&ensp;&ensp;E-CAT통신 Driver<br/>
-&ensp;&ensp;&ensp;Serial RS232통신 Driver<br/>
-
-<h5>Module 운용 SW 개발</h5>
-&ensp;&ensp;&ensp;RF Plasma : Generator, Matcher<br/>
-&ensp;&ensp;&ensp;Chuck Heater : ESC<br/>
-&ensp;&ensp;&ensp;Motion<br/>
-
-<h5>설비 SW 최적화 및 형상 관리</h5>
-&ensp;&ensp;&ensp;Project 단일화 작업 : Equipment Setting Library 개발<br/>
-&ensp;&ensp;&ensp;운용 Project Log Auto/Manual backup 기능 개발<br/>
-&ensp;&ensp;&ensp;담당설비 CMMI2 인증<br/>
-<!--&ensp;&ensp;&ensp;code 최적화로 개발 업무 효율 증가 및 개발 기간 단축에 기여<br/> -->
-
-<h5>설비 S/W Setup 및 Issue Trace</h5>
-
-<h5>설비 S/W operate 교육 담당</h5>
-<br/><br/>
+<dl>
+  <dt>Deposition CVD 설비 개발/양산</dt>
+</dl>
+<dl>
+  <dt>Module 통신 Driver 개발</dt>
+  <dd>E-CAT Driver</dd>
+  <dd>Serial RS232 Driver</dd>
+</dl>
+<dl>
+  <dt>Module 운용 SW 개발</dt>
+  <dd>RF Plasma : Generator, Matcher</dd>
+  <dd>Chuck Heater : ESC</dd>
+  <dd>Motion</dd>
+</dl>
+<dl>
+  <dt>설비 SW 최적화 및 형상 관리</dt>
+  <dd>Project 단일화 작업 : Equipment Setting Library 개발</dd>
+  <dd>운용 Project Log Auto/Manual backup 기능 개발</dd>
+  <dd>담당설비 CMMI2 인증</dd>
+</dl>
+<dl>
+  <dt>설비 S/W Setup 및 Issue Trace</dt>
+</dl>
+<dl>
+  <dt>설비 S/W operate 교육 담당</dt>
+</dl>
+<br/><br/><br/>
 
 <h1>Education</h1>
 <hr>
-<h3>한림대학교 / 화학과 학사 (2014.03 ~ 2018.02)</h3>
-<h3>한림대학교 / 컴퓨터공학과(복수전공) 학사 (2014.03 ~ 2018.02)</h3>
-<br/><br/>
+<h4>한림대학교 / 화학과 학사 (2014.03 ~ 2018.02)</h4>
+<h4>한림대학교 / 컴퓨터공학과(복수전공) 학사 (2014.03 ~ 2018.02)</h4>
+<br/><br/><br/>
 
 <h1>ETC</h1>
 <hr>
 <h3>자격증</h3>
-<h5>Opic IH</h5>
-<h5>정보처리기사</h5>
-<h5>MOS Excel 2010 Expert</h5>
-<h5>MOS Word 2010 Expert</h5>
-<br/><br/>
+&ensp;- Opic IH
+&ensp;- 정보처리기사
+&ensp;- MOS Excel 2010 Expert
+&ensp;- MOS Word 2010 Expert
+<br/><br/><br/>
 
 
 <!--
