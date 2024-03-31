@@ -57,7 +57,7 @@ main_nav: true
 <h1>ETC</h1>
 <hr>
 <h3>자격증</h3>
-&ensp;- Opic IH<br/>
+&ensp;- OPIc IH<br/>
 &ensp;- 정보처리기사<br/>
 &ensp;- MOS Excel 2010 Expert<br/>
 &ensp;- MOS Word 2010 Expert<br/>
