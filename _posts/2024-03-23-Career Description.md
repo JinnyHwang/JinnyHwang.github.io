@@ -10,6 +10,7 @@ cover:  "/assets/instacode.png"
 <hr>
 
 <h3>주요 업무 프로젝트</h3>
+<object data="/assets/경력기술서_황지은.pdf" type="application/pdf" width="100%" height="500px">
 
 <hr>
 
