@@ -57,10 +57,10 @@ main_nav: true
 <h1>ETC</h1>
 <hr>
 <h3>자격증</h3>
-&ensp;- Opic IH
-&ensp;- 정보처리기사
-&ensp;- MOS Excel 2010 Expert
-&ensp;- MOS Word 2010 Expert
+&ensp;- Opic IH<br/>
+&ensp;- 정보처리기사<br/>
+&ensp;- MOS Excel 2010 Expert<br/>
+&ensp;- MOS Word 2010 Expert<br/>
 <br/><br/><br/>
 
 
@@ -78,16 +78,4 @@ main_nav: true
 
 성의 없는 About은 블로그 운영하다 보면서 개선할 예정
 😎😎😎😎😎😎
--->
-
-<!--
-Centrarium is a custom theme for Jekyll, made by [Ben Centra][bencentra] for his own blog. He'd be humbled if you liked it enough to use it as well! Installation and configuration instructions can be found in the [GitHub repository](https://github.com/bencentra/centrarium).
-
-This page is a good place to write about yourself, your project, your product, or whatever it is your site is for. You can replace the image above, or you can get rid of it entirely. 
-
-You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/). And you can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
-
-[centrarium]: https://github.com/bencentra/centrarium
-[bencentra]: http://bencentra.com
-[jekyll]: https://github.com/jekyll/jekyll
 -->
