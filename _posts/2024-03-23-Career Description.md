@@ -29,7 +29,7 @@ cover:  "/assets/instacode.png"
 
 ### SW Project Console log backup 기능 개발 (2021.05 ~ 2021.06)
 설비 Error 상황에서 자동으로 log를 backup하는 auto backup 기능 및 user manual log save 기능 개발.<br/>
-자동 log abkcup 기능으로 문제 발생 원인 분석에 기여함.<br/>
+자동 log backup 기능으로 문제 발생 원인 분석에 기여함.<br/>
 
 <hr>
 
