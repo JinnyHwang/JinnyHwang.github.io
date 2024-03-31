@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "2024 Carrer Description"
+title:  "2024 Career Description"
 date:   2024-03-23 18:00:00 +09:00
 author: Jieun
 categories: Project
