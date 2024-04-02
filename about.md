@@ -32,7 +32,6 @@ main_nav: true
   <dt>Module 운용 SW 개발</dt>
   <dd>RF Plasma : Generator, Matcher</dd>
   <dd>Chuck Heater : ESC</dd>
-  <dd>Motion</dd>
 </dl>
 <dl>
   <dt>설비 SW 최적화 및 형상 관리</dt>
