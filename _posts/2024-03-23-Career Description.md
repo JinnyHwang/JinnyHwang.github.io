@@ -19,15 +19,15 @@ cover:  "/assets/instacode.png"
 ### 경력 요약
 총 5년의 반도체 설비 소프트웨어 엔지니어 경력을 보유하고 있습니다.<br/>
 <br/>
-반도체 신규 CVD 설비의 개발 단계부터 양산 단계까지 SW 개발을 담당해왔으며,<br/>
-담당 설비의 구조와 역할을 이해하고 공정에 대해 공부하며 User frendly한 설비 운용 SW Project를 개발하기 위해 노력하고 있습니다.<br/>
+반도체 신규 CVD 설비의 개발 단계부터 양산 단계까지 SW 개발을 담당하고 있으며,<br/>
+담당 설비의 구조와 역할을 이해하고 공정에 대해 공부하며 user friendly한 설비 운용 SW Project를 개발하기 위해 노력하고 있습니다.<br/>
 <br/>
-공정적 Issue 해결 및 개선 관련 item 개발 업무, SW 기능 개발 및 통신 Driver를 개발을 수행하며 SW Management, SW Architecture 설계 역할도 수행하고 있습니다.<br/>
+공정적 Issue 해결 및 개선 관련 item 개발 업무, SW 기능 개발 및 통신 Driver 개발을 수행하며 SW Management, SW Architecture 설계 역할도 수행하고 있습니다.<br/>
 <br/>
 SW quality 향상을 위해 software clean code test와 설비적, 공정적 영향성 관련 test를 함께 수행하고 있습니다.<br/>
-지속적으로 SW Projcet의 최적화 및 형상 관리에 힘쓰고 있으며, 담당설비의 CMMI Level2, Level3 인증 획득을 성공시켰습니다.<br/>
+SW Project의 최적화 및 형상 관리에 힘쓰고 있으며, 담당설비의 CMMI Level2, Level3 인증 획득을 성공시켰습니다.<br/>
 <br/>
-또한 유관부서와 원활한 소통과 협업을 통해 프로젝트를 성공적으로 완수해왔으며, 이를 통해 문제해결 능력과 리더십 역량을 쌓아왔습니다.<br/>
+또한 유관부서와 원활한 소통과 협업을 통해 프로젝트를 성공적으로 완수해 왔으며, 이를 통해 문제해결 능력과 리더십 역량을 쌓아왔습니다.<br/>
 
 <hr>
 
