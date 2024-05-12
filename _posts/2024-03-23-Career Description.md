@@ -56,7 +56,7 @@ SW item 개발 시 개발 공수를 크게 감소시켜 업무 효율 증대에 
 
 ### ESC (Electrostatic Chuck) 구동 SW 개발 (2022.02 ~ 2022.04)
 ESC HW 특성에 맞는 동작 sequence를 파악 후 SW code 구조 전체 재설계 및 구현.<br/>
-SW code SW code Refactoring으로 ESC module 통신 속도 개선.<br/>
+SW code Refactoring으로 ESC module 통신 속도 개선.<br/>
 ESC 기존/신규 기능 검증 및 공정 영향성 없음 확인.<br/>
 타설비에서 해당 개발 SW code pending item으로 등록 함.<br/>
 
