@@ -24,8 +24,8 @@ cover:  "/assets/instacode.png"
 <br/>
 공정적 Issue 해결 및 개선 관련 item 개발 업무, SW 기능 개발 및 통신 Driver 개발을 수행하며 SW Management, SW Architecture 설계 역할도 수행하고 있습니다.<br/>
 <br/>
-SW quality 향상을 위해 software clean code test와 설비적, 공정적 영향성 관련 test를 함께 수행하고 있습니다.<br/>
-SW Project의 최적화 및 형상 관리에 힘쓰고 있으며, 담당설비의 CMMI Level2, Level3 인증 획득을 성공시켰습니다.<br/>
+SW quality 향상을 위해 software clean code 작성, 기존 code Refactoring, Test Script를 작성하며 설비적, 공정적 영향성 관련 test를 함께 수행하고 있습니다.<br/>
+이러한 SW Project의 최적화 및 형상 관리로 담당설비의 CMMI Level2, Level3 인증 획득을 성공시켰습니다.<br/>
 <br/>
 또한 유관부서와 원활한 소통과 협업을 통해 프로젝트를 성공적으로 완수해 왔으며, 이를 통해 문제해결 능력과 리더십 역량을 쌓아왔습니다.<br/>
 
@@ -56,7 +56,7 @@ SW item 개발 시 개발 공수를 크게 감소시켜 업무 효율 증대에 
 
 ### ESC (Electrostatic Chuck) 구동 SW 개발 (2022.02 ~ 2022.04)
 ESC HW 특성에 맞는 동작 sequence를 파악 후 SW code 구조 전체 재설계 및 구현.<br/>
-SW code 구조 변경으로 ESC module 통신 속도 개선.<br/>
+SW code SW code Refactoring으로 ESC module 통신 속도 개선.<br/>
 ESC 기존/신규 기능 검증 및 공정 영향성 없음 확인.<br/>
 타설비에서 해당 개발 SW code pending item으로 등록 함.<br/>
 
