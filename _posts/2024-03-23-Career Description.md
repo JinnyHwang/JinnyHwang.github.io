@@ -36,7 +36,7 @@ SW quality 향상을 위해 software clean code 작성, 기존 code Refactoring,
 신규 공정에 필요한 SW 개발 업무 수행 중.<br/>
 RF Plasma, Heater, Motion Motor 등 HW 관련 SW 기능 개발 및 통신 Driver 개발 수행<br/>
 설비 Setup 및 고객사 설비 Issue Trace, Scheduler Log 분석 수행<br/>
-SW Projcet 최적화 및 형상 관리를 통한 SW 품질 향상으로 설비 SW Issue 감소에 기여v
+SW Projcet 최적화 및 형상 관리를 통한 SW 품질 향상으로 설비 SW Issue 감소에 기여
 
 <hr>
 
